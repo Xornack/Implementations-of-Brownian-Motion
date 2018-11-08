@@ -36,7 +36,7 @@ def input_variables(param1, param2, param3):
         button_click()
         master.destroy()
 
-    # these three lines call the label, entry, and buttons in that order.
+    # these two lines call the label and entry buttons.
     label = tkinter.Label(master, text = 'window size (pixels)').pack()
     entry1 = tkinter.Entry(master, textvariable = param1).pack()
 
